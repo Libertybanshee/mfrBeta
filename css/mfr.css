@@ -1,0 +1,449 @@
+/*Police à emporter via google front @import*/
+
+/*
+1 - :root
+2 - * 
+3 - selecteur manuel
+4 - selecteur par ID
+5 - selecteur par class
+6 - Média Query
+
+/*1 - ICI sont les :root */
+
+:root {
+    /* Couleur racine a définir */
+    box-sizing: border-box;
+}
+
+/*2 - ICI sont les " * " */
+
+* {
+    box-sizing: inherit;
+}
+
+/*3 - ICI sont les selecteur manuel */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem; /*rem en taille par défaut puis ajuster les avec l'unité EM*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main a {
+    text-decoration: none;
+}
+
+/*4 - ICI sont les ID */
+
+#backUp {
+    text-align: center;
+    display: block;
+}
+#backMain {
+    text-align: center;
+    display: block;
+}
+
+#logoImg {
+    width: 90px;
+    margin-top: -10px;
+    z-index: 1000;
+    position: relative;
+}
+
+#mainFooter {
+    height: 40px;
+    width: 100%;
+    font-size: .8em;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainHeader, #mainFooter {
+    background-color: wheat;
+}
+
+#mainHeader {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-columns: 90px 1fr 60px;
+}
+
+#mainHeader > h1 {
+    height: 50px;
+    margin: 0;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+#mainNav {
+    background-color: wheat;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    padding-bottom: 10px;
+    display: none; /* Toggle le menu*/
+}
+
+#mainNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainNav ul li ul{ /* Sous menu Evènement caché par défaut */
+    display: none;
+}
+
+#mainNav ul li:hover ul{
+    display: block;
+}
+
+#mainNav a {
+    color: purple;
+    padding: 10px; /* espacer verticalement le texte dans le menu déroulant */
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* display: block; Ancien paramètre
+    padding-left: 90px; */
+}
+
+#mainNav a:hover {
+    color: brown;
+}
+
+#mainNav a:active{
+    color: green;
+}
+
+#menuToggle {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    /* z-index: 100;
+    position: absolute;
+    right: 0px; */
+    border: none;
+}
+
+#nameC img{
+    width: 1000px;
+}
+
+#pageContent {
+    padding: 0px 20px;
+    margin-top: 60px;
+    min-height: 100vh; /* Ajuste la hauteur de la page*/
+}
+
+#réseauxSo {
+    margin: 10px auto;
+    display: flex;
+}
+
+#réseauxSo a {
+    border: none;
+}
+
+#réseauxSo button.insta{
+    margin-left: 25%;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    box-sizing: content-box;
+}
+
+#réseauxSo button.twitter{
+    margin: 0 20px;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    box-sizing: content-box;
+}
+
+#réseauxSo button.fb{
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    box-sizing: content-box;
+    
+}
+
+#réseauxSo img{
+    width: 40px;
+    background-color: transparent;
+}
+
+#textbeta {
+    text-align: center;
+}
+
+/*5 - ICI sont les Class */
+
+.accessibility {
+    position: absolute;
+    left: -15000px;
+}
+
+.newC { /* Apparence chronique en page d'accueil*/
+    background-color: wheat;
+    width: 150px;
+    height: 300px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: content-box;
+}
+
+.oldC {
+    background-color: wheat;
+    width: 150px;
+    height: 250px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: content-box; 
+}
+
+.newR { /* A revoir, sur mobile put dev flex column + texte sur le cote + img float left */
+    background-color: wheat;
+    width: 180px;
+    height: 350px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: content-box; 
+}
+
+.main {
+    padding: 20px;
+}
+
+#mainHeader.text {
+    height: 50px;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Définir cet classe plus tart cours 5 chapitre 10 CSS
+#writeChronique a{
+    padding: 60px;
+} */
+
+#pageContent.contact form { /* Voir Cours 5 CHapitre 13 pour finaliser*/
+    border-top: solid 1px red;
+}
+
+#pageContent.contact form > div > div{
+    margin: 20px 0;
+}
+
+#pageContent.contact form label{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+#pageContent.contact form textarea{
+    height: 150px;
+    resize: none;
+}
+
+#pageContent.contact form button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+#pageContent.contact form button:hover {
+    background-color: tomato;
+}
+
+#pageContent.contact form button:active {
+    background-color: red;
+}
+
+#pageContent.galleries { /* Position des chronique en accueil */
+    display: flex; 
+    flex-flow: column nowrap;
+    margin-top: 50px;
+}
+
+#pageContent.galleries { /* paramètre h1 appliqué à tous les texte */
+    text-align: center;
+}
+
+#pageContent.galleries h1{
+    padding: 10px 0;
+    color: black;
+    background-color: blanchedalmond;
+    opacity: .7;
+}
+
+#pageContent.galleries ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Position des chronique en accueil */
+    flex-wrap: wrap; 
+    justify-content: center;
+    /* display: grid; Voir Cours 3 Chapitre 12 CSS
+    grid-gap: 20px; */
+}
+
+#pageContent.galleries ul li {
+    padding: 10px;
+}
+
+#pageContent.galleries ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#pageContent.galleries ul li:hover {
+    background-color: orange;
+}
+
+#pageContent.galleries ul li a img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+#pageContent.galleries ul li a h2 {
+    font-size: .5em;
+}
+
+#pageContent.galleries ul li a p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pageContent.text {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px 30px;
+}
+
+#pageContent.text main {
+    padding: 10px;
+    margin: 30px 0;
+    background-color: white;
+    opacity: .7;
+}
+
+#pageContent.text main a {
+    color: purple;
+    text-decoration: none;
+}
+
+#pageContent.text main a:hover {
+    text-decoration: underline;
+}
+
+#pageContent.text main a:active {
+    color: red;
+    text-decoration: none;
+}
+
+#pageContent.text main header{
+    border-bottom: solid 1px black;
+}
+
+#pageContent.text main aside{
+    background-color: bisque;
+    margin: 15px 0;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.writeContent h1 {
+    text-align: center; pa
+}
+
+/*6 - ICI sont les Media Query */
+/* Cours 2 & 3 Chapître 11 puis à partir du Cours 1 Chapître 12 CSS*/
+@media screen and (min-width: 768px){
+
+    #menuToggle {
+        display: none;
+    }
+    #mainHeader {
+        grid-template-columns: 90px 250px 1fr;
+    }
+    #mainNav {
+        position: static;
+        background-color: transparent;
+        display: block;
+    }
+    #mainNav a{
+        font-size: 1.2em; /* A définir plus tard */
+        padding: 0 10px;
+    }
+    #mainNav ul{
+        height: 50px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #pageContent.galleries {
+        background: url(/pictures/fd4.jpg) center center / cover no-repeat fixed;
+    }
+
+    #pageContent.galleries h1{
+        width: 700px;
+        padding: 10px 0;
+        margin: 20px auto;
+        color: black;
+        background-color: blanchedalmond;
+        opacity: .7;
+    }
+
+    #pageContent.galleries ul {
+       /* grid-template-columns: repeat(2, 1fr); */
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #mainHeader {
+        grid-template-columns: 90px 1fr 1fr;
+    }
+    #mainHeader > h1 {
+        font-size: 1.5em; /* A modifier plus tard */
+    }
+
+    #pageContent.galleries ul {
+        /* grid-template-columns: repeat(3, 1fr); */
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    #pageContent.galleries ul {
+        /* grid-template-columns: repeat(4, 1fr); */
+    }
+
+}
