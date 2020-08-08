@@ -1,4 +1,6 @@
 Road Map !
+- PRIORITAIRE revoir taille liste Chronique
+- lien achat livre dans chronique.html
 - Animation menu Toggler croix
 - effet défilement texte lecture chronique
 - coder version PC
@@ -8,3 +10,4 @@ Road Map !
 - anomalie taille chronique à rectifier sur RentreL.html
 - centrer les button réseau sociaux 
 - simplifier et automatiser l'ajout de chronique
+- ajuster l'info version mobile pour PC 

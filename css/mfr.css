@@ -56,6 +56,7 @@ main a {
 }
 
 #mainFooter {
+    background-color: wheat;
     height: 40px;
     width: 100%;
     font-size: .8em;
@@ -65,11 +66,8 @@ main a {
     align-items: center;
 }
 
-#mainHeader, #mainFooter {
-    background-color: wheat;
-}
-
 #mainHeader {
+    background-image: url(https://cdn.generationvoyage.fr/2014/04/old-library-trinity-college-dublin.jpg);
     height: 50px;
     width: 100%;
     position: fixed;
@@ -208,7 +206,7 @@ main a {
 }
 
 .newC { /* Apparence chronique en page d'accueil*/
-    background-color: wheat;
+    background-color: white;
     width: 150px;
     height: 300px;
     padding: 0px;
