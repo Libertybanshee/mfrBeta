@@ -220,8 +220,8 @@ main a {
     width: 150px;
     height: 300px;
     padding: 0px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     box-sizing: content-box;
 }
 
@@ -402,7 +402,7 @@ main a {
 }
 
 /*6 - ICI sont les Media Query */
-/* Cours 2 & 3 Chapître 11 puis à partir du Cours 1 Chapître 12 CSS*/
+/* Cours 2 & 3 Chapître 11 puis à partir du Cours 1 Chapître 12 CSS
 @media screen and (min-width: 768px){
 
     #menuToggle {
@@ -417,7 +417,7 @@ main a {
         display: block;
     }
     #mainNav a{
-        font-size: 1.2em; /* A définir plus tard */
+        font-size: 1.2em;  A définir plus tard 
         padding: 0 10px;
     }
     #mainNav ul{
@@ -441,7 +441,7 @@ main a {
     }
 
     #pageContent.galleries ul {
-       /* grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
@@ -450,18 +450,18 @@ main a {
         grid-template-columns: 90px 1fr 1fr;
     }
     #mainHeader > h1 {
-        font-size: 1.5em; /* A modifier plus tard */
+        font-size: 1.5em; /A modifier plus tard 
     }
 
     #pageContent.galleries ul {
-        /* grid-template-columns: repeat(3, 1fr); */
+        /grid-template-columns: repeat(3, 1fr); 
     }
 
 }
 
 @media screen and (min-width: 1200px) {
     #pageContent.galleries ul {
-        /* grid-template-columns: repeat(4, 1fr); */
+         grid-template-columns: repeat(4, 1fr); 
     }
 
-}
+}*/
