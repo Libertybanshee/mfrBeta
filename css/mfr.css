@@ -216,7 +216,7 @@ main a {
 }
 
 .newC { /* Apparence chronique en page d'accueil*/
-    background-color: white;
+    background-color: greenyellow;
     width: 150px;
     height: 300px;
     padding: 0px;
@@ -329,7 +329,7 @@ main a {
 }
 
 #pageContent.galleries ul li {
-    padding: 10px;
+    padding: 5px;
 }
 
 #pageContent.galleries ul li a {
