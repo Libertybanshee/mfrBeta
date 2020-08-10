@@ -167,6 +167,8 @@ main a {
 #réseauxSo {
     margin: 10px auto;
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
 
 #réseauxSo a {
@@ -174,7 +176,6 @@ main a {
 }
 
 #réseauxSo button.insta{
-    margin-left: 25%;
     max-width: 100%;
     height: auto;
     background-color: transparent;
