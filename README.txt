@@ -1,4 +1,5 @@
 To Do List !
+- supprimer la bordure orange du menuToggle
 - chercher les couleur et fond d'écran
 - chercher le logo
 - chercher les mots clés référencement

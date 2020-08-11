@@ -161,6 +161,7 @@ main a {
 }
 
 #menuToggle.active {
+    border: none;
     transition: .5s;
     background-image: url(../pictures/close.png);
     background-size: 30px 30px;
