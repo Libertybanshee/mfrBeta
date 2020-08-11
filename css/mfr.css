@@ -75,8 +75,9 @@ main a {
     display: grid;
     grid-template-columns: 90px 1fr 60px;
 }
+
 #mainHeaderC {
-    background-color: transparent;
+    background-color: transparent; /* Améliore la sensation de lecture */
     height: 50px;
     width: 100%;
     position: fixed;
@@ -272,7 +273,7 @@ main a {
     z-index: 1000;
 }
 
-#mainHeaderC.text {
+#mainHeaderC.text { /* class lié au lecture de chronique*/
     height: 50px;
     width: 100%;
     z-index: 1000;
