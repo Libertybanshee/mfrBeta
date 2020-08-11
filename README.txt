@@ -1,4 +1,7 @@
-Road Map !
+To Do List !
+- chercher les couleur et fond d'écran
+- chercher le logo
+- chercher les mots clés référencement
 * revoir taille liste Chronique
 - lien achat livre dans chronique.html
 * Animation menu Toggler croix
@@ -10,4 +13,4 @@ Road Map !
 * centrer les button réseau sociaux 
 - simplifier et automatiser l'ajout de chronique
 * ajuster l'info version mobile pour PC 
-- disparition au Scrool Jquery -> effet défilement texte lecture chronique
+* disparition au Scrool Jquery -> effet défilement texte lecture chronique
