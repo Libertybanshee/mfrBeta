@@ -1,8 +1,14 @@
 /* Toggler le menu */
 $(document).ready(function(){
-    $(`#menuToggle`).click(function(){
+    $('#menuToggle').click(function(){ /* #menuToggle par .barres*/
         $(`#mainNav`).stop(true, true).slideToggle();
     });
 });
 
-/* code en JS si clik sur a alors mainNav display none*/
+/* Animation menu croix*/
+
+			$(document).ready(function(){
+				$('.barres').click(function(){
+					$('.barres').toggleClass('active');
+				})
+			})
