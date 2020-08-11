@@ -1,7 +1,7 @@
 Road Map !
 * revoir taille liste Chronique
 - lien achat livre dans chronique.html
-- PRIORITAIRE Animation menu Toggler croix
+* Animation menu Toggler croix
 * coder version PC
 - Optimiser les ressources
 * Structurer & remettre nom, auteur, edition sur la selection de chronique dans les archives
