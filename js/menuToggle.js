@@ -8,7 +8,7 @@ $(document).ready(function(){
 /* Animation menu croix*/
 
 			$(document).ready(function(){
-				$('.barres').click(function(){
-					$('.barres').toggleClass('active');
+				$('#menuToggle').click(function(){
+					$('#menuToggle').toggleClass('active');
 				})
 			})

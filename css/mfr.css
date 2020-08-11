@@ -152,6 +152,20 @@ main a {
     right: 0px; */
     border: none;
     z-index: 2000;
+    /* Modif bookClub essaie animation*/
+    transition: .5s;
+    background-image: url(../pictures/HamburgerClassic.png);
+    background-size: 40px 40px;
+    background-position: center 5px;
+    background-repeat: no-repeat;
+}
+
+#menuToggle.active {
+    transition: .5s;
+    background-image: url(../pictures/close.png);
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #nameC img{
