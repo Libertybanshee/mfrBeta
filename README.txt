@@ -1,4 +1,5 @@
 To Do List !
+- PRIORITAIRE ajouter contenu chronique
 - Centrer verticalement le menu
 - supprimer la bordure orange du menuToggle
 - chercher les couleur et fond d'écran
