@@ -10,16 +10,16 @@
 
 /*1 - ICI sont les :root */
 
-:root {
-    /* Couleur racine a définir */
-    /*box-sizing: border-box;  ----> éventuel bug border toggleMenu sur Chrome */
-}
+/*:root {
+     Couleur racine a définir 
+    box-sizing: border-box;  ----> éventuel bug border toggleMenu sur Chrome 
+}*/
 
 /*2 - ICI sont les " * " */
 
-* {
-   /* box-sizing: inherit;  ----> éventuel bug border toggleMenu sur Chrome */
-}
+/* * {
+   box-sizing: inherit;  ----> éventuel bug border toggleMenu sur Chrome 
+} */
 
 /*3 - ICI sont les selecteur manuel */
 
