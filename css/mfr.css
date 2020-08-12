@@ -151,7 +151,7 @@ main a {
     /* z-index: 100;
     position: absolute;
     right: 0px; */
-    border: none;
+    border: hidden;
     z-index: 2000;
     /* Modif bookClub essaie animation*/
     transition: .5s;
@@ -163,7 +163,7 @@ main a {
 
 #menuToggle.active {
     background-color: transparent;
-    border: none;
+    border: hidden;
     transition: .5s;
     background-image: url(../pictures/close.png);
     background-size: 30px 30px;
