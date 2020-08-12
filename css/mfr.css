@@ -162,6 +162,7 @@ main a {
 }
 
 #menuToggle.active {
+    background-color: transparent;
     border: none;
     transition: .5s;
     background-image: url(../pictures/close.png);
