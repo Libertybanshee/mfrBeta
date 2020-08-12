@@ -12,13 +12,13 @@
 
 :root {
     /* Couleur racine a définir */
-    /*box-sizing: border-box;*/
+    /*box-sizing: border-box;  ----> éventuel bug border toggleMenu sur Chrome */
 }
 
 /*2 - ICI sont les " * " */
 
 * {
-   /* box-sizing: inherit;*/
+   /* box-sizing: inherit;  ----> éventuel bug border toggleMenu sur Chrome */
 }
 
 /*3 - ICI sont les selecteur manuel */
@@ -169,6 +169,10 @@ main a {
     background-size: 30px 30px;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+#menuToggle:focus {
+    outline: 0;
 }
 
 #nameC img{
