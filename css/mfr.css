@@ -12,13 +12,13 @@
 
 :root {
     /* Couleur racine a définir */
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 /*2 - ICI sont les " * " */
 
 * {
-    box-sizing: inherit;
+   /* box-sizing: inherit;*/
 }
 
 /*3 - ICI sont les selecteur manuel */
