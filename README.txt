@@ -1,5 +1,7 @@
 To Do List !
-- PRIORITAIRE ajouter contenu chronique
++ ajouter contenu chronique
+- finir les pages html Sauvage - La catabase et L'ami imaginaire
+- PRIORITAIRE définir taille fond d'écran chronique
 - Centrer verticalement le menu
 - supprimer la bordure orange du menuToggle
 - chercher les couleur et fond d'écran
