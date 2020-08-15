@@ -1,5 +1,6 @@
 To Do List !
 + ajouter contenu chronique
+- revoir le code fond d'écran des chronique sur PC
 - finir les pages html Sauvage - La catabase et L'ami imaginaire
 - PRIORITAIRE ajuster taille fond d'écran chronique
 - Centrer verticalement le menu

@@ -13,11 +13,21 @@
                 crossorigin="anonymous"></script>
         <script src="../js/menuToggle.js"></script>
         <style> 
-            #pageContent.text {
+            #pageContent.text { /* Plein écran sur mobile */
                 background-image: url(); /* ICI COUVERTURE */
-                background-position: center center;
+                background-position: center;
+                background-size: cover;
                 background-attachment: fixed;
             } 
+
+            @media screen and (min-width: 1024px){
+                #pageContent.text { /* mosaïque sur PC */
+                    background-image: url(); /* ICI COUVERTURE */
+                    background-position: center center;
+                    background-attachment: fixed;
+                } 
+
+            }
         </style>
     </head>
     <body>
