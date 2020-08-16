@@ -420,6 +420,10 @@ main a {
     text-align: center;
 }
 
+.writeContent h2 {
+    text-align: center;
+}
+
 .writeContent p {
     text-align: center;
 }
