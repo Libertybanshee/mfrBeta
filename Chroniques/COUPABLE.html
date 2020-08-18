@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- A revoir avec MFR pour cibler les mots clés -->
+        <meta name="description" content="Découvre les résumés des livres auto-édité et maison d'édition"/>
+        <title></title> <!-- My Fabulouse Reading - Chronique de -->
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/mfr.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                crossorigin="anonymous"></script>
+        <script src="../js/menuToggle.js"></script>
+        <style> 
+            #pageContent.text { /* Plein écran sur mobile */
+                background-image: url(https://products-images.di-static.com/image/laurent-loison-coupable/9782889441341-475x500-1.jpg); /* ICI COUVERTURE */
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            } 
+
+            @media screen and (min-width: 1024px){
+                #pageContent.text { /* mosaïque sur PC */
+                    background-image: url(https://products-images.di-static.com/image/laurent-loison-coupable/9782889441341-475x500-1.jpg); /* ICI COUVERTURE */
+                    background-position: center center;
+                    background-attachment: fixed;
+                    background-size: auto;
+                } 
+
+            }
+        </style>
+    </head>
+    <body>
+        <header id="mainHeaderC" class="text">
+            <img src="../pictures/bookM12.png" alt="Logo du site" id="logoImg"/>
+            <h1></h1>
+            <nav id="mainNav">
+                <h1 class="accessibility">Menu principal</h1>
+                <p class="accessibility"><a href="#pageContent" title="Accéder directement au contenu principal de cette page">Passer le menu</a></p>
+                <ul class="mainMenu">
+                    <li id="accueil"><a href="../index.html">Accueil</a></li>
+                    <li><a href="../rentreL.html">Rentrée littéraire</a></li>
+                    <li><a href="../Archives.html">Archives</a></li>
+                    <!-- <li><a href="#">Liste de Chronique</a>
+                         <ul>
+                             <li><a href="#">Auteur</a></li>
+                             <li><a href="#">Genre</a></li>
+                             <li><a href="#">Maison d'édition</a></li>
+                             <li><a href="#">Coup de coeur</a></li>
+                             <li><a href="#">Bouleversent</a></li>
+                         </ul>
+                     </li> -->
+                    <li><a href="#">Evènements ( à venir )</a>
+                        <!-- <ul>
+                            <li><a href="#">Concours</a></li>
+                            <li><a href="#">Jurée</a></li>
+                            <li><a href="#">Salon</a></li>
+                            <li><a href="#">Librairie</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="#">Book Club ( à venir )</a></li>
+                    <li><a href="../Parcours.html">Mon parcours</a></li>
+                    <li><a href="../About.html">A propos</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                <section id="réseauxSo">
+                    <button class="insta"><a href="https://www.instagram.com/myfabulousreading/"><img src="../pictures/insta1.png"></a></button>
+                    <button class="twitter"><a href="https://twitter.com/myfabulousread"><img src="../pictures/twitter1.png"></a></button>
+                    <button class="fb"><a href="https://www.facebook.com/fabu.read.5"><img src="../pictures/fb1.png"></a></button>
+                </section>
+            </nav>
+            <button id="menuToggle"></button>
+        </header>
+        <section id="pageContent" class="text writeContent">
+            <main>
+                <header>
+                    <h1>COUPABLE ?</h1>
+                    <p>Laurent Loison</p>
+                    <p>Chronique écrite le <br/><strong>26 - 04 - 2020</strong></p> 
+                </header>
+                <article>
+                    <p id="startRead"  class="effet">❤️Coup de cœur❤️ Bon et bien je vais faire très simple, ce livre c'est une petite bombe!</p> 
+                    <br/>
+                    <p class="effet">Pour commencer, je l'ai lu d'une traite, pas pu le lâcher avant d'en finir. Je savais d'instinct que j'allais aimer, avant même de réussir à enfin mettre la main dessus. Je ne l'explique pas, c'est un "tête-à-tête",si je puis dire, dont je me réjouissais d'avance, impatiemment, mais clairement je ne m'attendais pas à ça, à savoir le dévorer avec délectation et surtout le refermer avec les frissons, le cœur noué, laissant place à d'interminables onomatopées et interjections dans mon petite cerveau de lectrice! Je vous laisse imaginer...</p> 
+                    <br/>
+                    <p class="effet">Bon je ne veux pas spoiler donc je ne rentrerai pas dans les détails, ce serait gâcher la surprise, qui est de taille! Sachez juste que c'est un cocktail très réussi et efficace, entre des personnages poignants, des situations déstabilisantes, des questions dérangeantes, avec en prime un voyage de Paris à Phoenix où un puzzle se met en place petit à petit et où les pièces s'emboîteront intelligemment.</p> 
+                    <br/>
+                    <p class="effet">Un page turner comme je les aime, une claque finale monumentale, je n'en dis pas plus. Ne passez pas à côté les #bookstagrammers! Foncez!</p>
+                    <br/>
+                    <a id="backUp" href="#startRead">Relire la Chronique</a>
+                </article>
+                <aside>
+                    <h2>Plus d'information sur ce livre ?</h2>
+                    <p>N'hésitez pas à vous renseigner auprès de votre librairie où visitez le site de leur maison d'édition en cliquant <a href="#" target="_blank">ICI</a> <!-- ICI LIEN MAISON EDITION -->
+                    </p>
+                </aside>
+                <footer>
+                    <a  id="backMain" href="../index.html">Retour à l'accueil<a>
+                </footer>
+            </main>
+        </section>
+        <section id="textbeta">
+            <!-- Informe le spectateur de la version de test -->
+            <p>Version Beta du blog optimisé sur tablette et smartphone</p>
+        </section>
+        <footer id="mainFooter">
+            <p>&copy; Copyright My Fabulous Reading - 2020</p>
+        </footer>
+    </body>
+</html>
