@@ -15,3 +15,4 @@ To Do List !
 - lien achat livre dans chronique.html
 - Optimiser les ressources
 - simplifier et automatiser l'ajout de chronique
+- afficher l'infos version mobile uniquement pour PC
