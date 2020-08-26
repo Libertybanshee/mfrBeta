@@ -251,11 +251,10 @@ main a {
 .newT { /* Test modif apparence CCS Card */
     background-color: white;
     width: 120px; /* ratio x2 */
-    height: 240px;
+    height: auto;
     padding: 0px;
     margin-bottom: 10px;
     margin-right: 10px;
-    border-radius: 5px;
     box-sizing: content-box; 
 }
 
@@ -375,7 +374,7 @@ main a {
     background-color: orange;
 }
 
-#pageContent.galleries ul li a img{
+#pageContent.galleries ul li img{/*remettre a*/
     max-width: 100%;
     height: auto;
     clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);

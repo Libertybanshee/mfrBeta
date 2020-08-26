@@ -36,3 +36,7 @@ $(function(){
 
 	})
 })
+
+/* Zoom Couverture */
+let galImages = document.querySelectorAll('img');
+console.log(galImages)
