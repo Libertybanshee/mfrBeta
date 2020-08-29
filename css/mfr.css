@@ -258,6 +258,10 @@ main a {
     box-sizing: content-box; 
 }
 
+.newT div {
+    width: 30px;
+}
+
 .oldC {
     background-color: wheat;
     width: 150px;
