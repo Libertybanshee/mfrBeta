@@ -286,6 +286,14 @@ main a {
     padding: 20px;
 }
 
+.imgCover {
+
+}
+
+.titleCover {
+    
+}
+
 #mainHeader.text {
     height: 50px;
     width: 100%;
@@ -381,7 +389,7 @@ main a {
 #pageContent.galleries ul li img{/*remettre a*/
     max-width: 100%;
     height: auto;
-    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+   /* clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);*/
     margin-bottom: -10px;
 }
 
