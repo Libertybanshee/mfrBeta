@@ -239,13 +239,9 @@ main a {
 
 .newC { /* Apparence chronique en page d'accueil TAILLE PETIT MOBILE */
     background-color: white;
-    width: 120px; /* ratio x2 */
-    height: 240px;
-    padding: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    box-sizing: content-box;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .newT { /* Test modif apparence CCS Card */
@@ -266,16 +262,6 @@ main a {
     background-color: wheat;
     width: 150px;
     height: 250px;
-    padding: 0px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    box-sizing: content-box; 
-}
-
-.newR { /* A revoir, sur mobile put dev flex column + texte sur le cote + img float left */
-    background-color: wheat;
-    width: 180px;
-    height: 350px;
     padding: 0px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -387,8 +373,9 @@ main a {
 }
 
 #pageContent.galleries ul li img{/*remettre a*/
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    object-fit: cover;
    /* clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);*/
     margin-bottom: -10px;
 }
@@ -456,16 +443,9 @@ main a {
     /* Apparence chronique en page d'accueil*/
     .newC {
     /*background-color: white;*/
-    width: 140px;
     height: auto;
-    padding: 0px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    box-sizing: content-box;
-    }
-
-    #pageContent.galleries ul li {
-        padding: 0px;
+    max-width: 100%;
+    object-fit: cover;
     }
 }
 
@@ -479,23 +459,6 @@ main a {
     padding: 0px;
     margin-bottom: 50px;
     margin-right: 5px;
-    }
-
-    .newC a {
-    }
-
-    .newC img {
-        width: 100%;
-    }
-
-    .newC p {
-        height: 0px;
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    #pageContent.galleries ul li {
-        padding: 0px;
     }
 }
 
