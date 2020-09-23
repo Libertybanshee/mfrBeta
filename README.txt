@@ -13,3 +13,4 @@ To Do List !
 - lien achat livre dans chronique.html
 - Optimiser les ressources
 - simplifier et automatiser l'ajout de chronique
+- remplacer le lien "retour à l'accueil" par "retour en arrière" en plaçant un ID du livre
