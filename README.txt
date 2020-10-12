@@ -1,17 +1,14 @@
 To Do List !
-+ ajouter contenu chronique
+- validez interface d'accueil / chronique
 - PRIORITAIRE icone menu illisible sur fond noir
 - PRIORITAIRE définir taille mediaQuery chronique 1024px où moins
 - PRIORITAIRE définir taille CCS Card chronique
-- PRIORITAIRE inclure zoom couverture dans la selection de chronique
-- Bug dans les chroniques sur le click -Relire la chronique-
 - finir les pages html Sauvage 
 - La catabase et L'ami imaginaire
 - chercher les couleur et fond d'écran
 - chercher le logo
 - chercher les mots clés référencement
-- lien achat livre dans chronique.html
+- lien achat livre chez libraire
 - Optimiser les ressources
-- simplifier et automatiser l'ajout de chronique
 - remplacer le lien "retour à l'accueil" par "retour en arrière" en plaçant un ID du livre
 - Logo a retirer
