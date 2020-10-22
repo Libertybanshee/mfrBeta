@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- A revoir avec MFR pour cibler les mots clés -->
+        <meta name="description" content="Découvre les résumés des livres auto-édité et maison d'édition"/>
+        <title></title> <!-- My Fabulouse Reading - Chronique de -->
+        <link rel="stylesheet" href="../css/normalize.css"/>
+        <link rel="stylesheet" href="../css/mfr.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+                integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+                crossorigin="anonymous"></script>
+        <script src="../js/menuToggle.js"></script>
+        <style> 
+            #pageContent.text { /* Plein écran sur mobile */
+                background-image: url(https://static.fnac-static.com/multimedia/Images/FR/NR/b2/fb/be/12516274/1507-1/tsp20201022070408/Impact.jpg); /* ICI COUVERTURE */
+                background-position: center;
+                background-size: cover;
+                background-attachment: fixed;
+            } 
+
+            @media screen and (min-width: 1024px){
+                #pageContent.text { /* mosaïque sur PC */
+                    background-image: url(https://static.fnac-static.com/multimedia/Images/FR/NR/b2/fb/be/12516274/1507-1/tsp20201022070408/Impact.jpg); /* ICI COUVERTURE */
+                    background-position: center center;
+                    background-attachment: fixed;
+                    background-size: auto;
+                } 
+
+            }
+        </style>
+    </head>
+    <body>
+        <header id="mainHeaderC" class="text">
+            <img src="../pictures/bookM12.png" alt="Logo du site" id="logoImg"/>
+            <h1></h1>
+            <nav id="mainNav">
+                <h1 class="accessibility">Menu principal</h1>
+                <p class="accessibility"><a href="#pageContent" title="Accéder directement au contenu principal de cette page">Passer le menu</a></p>
+                <ul class="mainMenu">
+                    <li id="accueil"><a href="../index.html">Accueil</a></li>
+                    <li><a href="../rentreL.html">Rentrée littéraire</a></li>
+                    <li><a href="../Archives.html">Archives</a></li>
+                    <!-- <li><a href="#">Liste de Chronique</a>
+                         <ul>
+                             <li><a href="#">Auteur</a></li>
+                             <li><a href="#">Genre</a></li>
+                             <li><a href="#">Maison d'édition</a></li>
+                             <li><a href="#">Coup de coeur</a></li>
+                             <li><a href="#">Bouleversent</a></li>
+                         </ul>
+                     </li> -->
+                    <li><a href="#">Evènements ( à venir )</a>
+                        <!-- <ul>
+                            <li><a href="#">Concours</a></li>
+                            <li><a href="#">Jurée</a></li>
+                            <li><a href="#">Salon</a></li>
+                            <li><a href="#">Librairie</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="#">Book Club ( à venir )</a></li>
+                    <li><a href="../Parcours.html">Mon parcours</a></li>
+                    <li><a href="../About.html">A propos</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+                <section id="réseauxSo">
+                    <button class="insta"><a href="https://www.instagram.com/myfabulousreading/" target="_blank"><img src="../pictures/insta1.png"></a></button>
+                    <button class="twitter"><a href="https://twitter.com/myfabulousread" target="_blank"><img src="../pictures/twitter1.png"></a></button>
+                    <button class="fb"><a href="https://www.facebook.com/fabu.read.5" target="_blank"><img src="../pictures/fb1.png"></a></button>
+                </section>
+            </nav>
+            <button id="menuToggle"></button>
+        </header>
+        <section id="pageContent" class="text writeContent">
+            <main>
+                <header>
+                    <h1>IMPACT</h1>
+                    <p>Olivier Norek</p>
+                    <p>édité par Michel Lafon</p>
+                    <p>Chronique écrite le <br/><strong>21 - 10 - 20</strong></p> 
+                </header>
+                <article>
+                    <p id="startRead"  class="effet">Rᴇ́sᴜᴍᴇ́🍂
+                    <br/>
+                    <p class="effet">Pour les millions de victimes passées
+                    et les millions de victimes à venir</p>
+                    <br/>
+                    <p class="effet">Virgil Solal entre en guerre,
+                    seul, contre des géants.</p>
+                    <br/>
+                    <p class="effet">⊰᯽⊱┈──╌❊Mon avis❊╌──┈⊰᯽⊱</p>
+                    <br/>
+                    <p class="effet">Un seul mot: DYNAMITE
+                    Tant par le sujet que par l'impact (sans mauvais jeu de mot n'est-ce pas...) qu'il va produire sur ses nombreux lecteurs.</p>
+                    <br/>
+                    <p class="effet">Encore une fois, Norek nous offre un récit coup de poing, dans la veine d'entre deux mondes que j'avais adoré. Des révélations choc, des questionnements et une réflexion absolument nécessaires. Un opus remarquable qui ne vous lâchera pas et vous poursuivra des jours durant, une fois la dernière page tournée.</p>
+                    <br/>
+                    <p class="effet">Je ne vous spoilerai pas donc ma chronique restera très courte. Je sais que tout le monde l'attends, donc hors de question de révéler quoi que ce soit sur ce livre. Découvrez-le sans attendre, passez-le autour de vous, et gardez-le précieusement, parceque celui là, on va en entendre parler dans quelques années...</p>
+                    <br/>
+                    <p class="effet">Un énorme merci aux @editionsmichellafon pour cette excellente lecture en avant- première d'un auteur qui fait parti de mes favoris de tous les temps.</p>
+                <!-- <a id="backUp" href="#startRead">Relire la Chronique</a> -->
+                </article>
+                <aside>
+                    <h2>Ce livre vous tente ?</h2>
+                    <p>Allez safisfaire votre curiosité en cliquant <a href="#" target="_blank">ICI</a> <!-- ICI LIEN MAISON EDITION -->
+                    </p>
+                </aside>
+            <!-- <footer>
+                    <a  id="backMain" href="../index.html">Retour à l'accueil<a>
+                </footer> -->
+            </main>
+        </section>
+        <section id="textbeta">
+            <!-- Informe le spectateur de la version de test -->
+            <p>Blog orienté tablette et smartphone - Version Beta</p>
+        </section>
+        <footer id="mainFooter">
+            <p>&copy; Copyright My Fabulous Reading - 2020</p>
+        </footer>
+    </body>
+</html>
