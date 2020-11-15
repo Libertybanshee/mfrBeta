@@ -457,10 +457,10 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					-moz-object-fit: cover;
-					-webkit-object-fit: cover;
-					-ms-object-fit: cover;
-					object-fit: cover;
+					-moz-object-fit: fill;
+					-webkit-object-fit: fill;
+					-ms-object-fit: fill;
+					object-fit: fill;
 					-moz-object-position: center;
 					-webkit-object-position: center;
 					-ms-object-position: center;
@@ -528,11 +528,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main .item {
-				height: 14em;
+				height: 35em;
 			}
 
 				#main .item.span-1 {
-					width: 17em;
+					width: 25em;
 				}
 
 				#main .item.span-2 {
@@ -546,6 +546,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			#main .item { /* Hauteur des couvertures */
+				height: 23em;
+			}
 
 			#main {
 				width: 100%;
@@ -831,3 +835,38 @@ input, select, textarea {
 				}
 
 		}
+
+/* MODIF CLASS */
+
+#main .item.couv {
+	display: block;
+	position: relative;
+	background: rgba(255, 255, 255, 0.25);
+	cursor: default;
+}
+
+#main .item.couv img {
+	display: block;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-moz-object-fit: fill;
+	-webkit-object-fit: fill;
+	-ms-object-fit: fill;
+	object-fit: fill;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: 0 25%; 
+	-moz-transition: opacity 0.75s ease-in-out;
+	-webkit-transition: opacity 0.75s ease-in-out;
+	-ms-transition: opacity 0.75s ease-in-out;
+	transition: opacity 0.75s ease-in-out;
+	-moz-transition-delay: 1.25s;
+	-webkit-transition-delay: 1.25s;
+	-ms-transition-delay: 1.25s;
+	transition-delay: 1.25s;
+}
