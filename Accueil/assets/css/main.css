@@ -1553,13 +1553,13 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			height: 17em; /* Hauteur couverture GRAND écran*/
+			height: 13em; /* Hauteur couverture GRAND écran*/
 		}
 
 			@media screen and (max-width: 736px){
 
 				.image img {
-					height: 30em; /* Hauteur couverture p'tit écran*/
+					height: 26em; /* Hauteur couverture p'tit écran*/
 				}
 
 			}
