@@ -1569,6 +1569,18 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.fit.size img {
+			height: 17em; /* Hauteur couverture GRAND écran*/
+		}
+
+			@media screen and (max-width: 736px){
+
+				.image.fit.size img {
+					height: 30em; /* Hauteur couverture p'tit écran*/
+				}
+
+			}
+
 		.image.featured {
 			display: block;
 			width: 100%;
